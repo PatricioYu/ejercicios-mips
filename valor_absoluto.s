@@ -1,4 +1,4 @@
-  
+# Escribir un programa en MIPS que devuelva el valor absoluto de un número ingresado por el usuario.
 .data
 prompt: .asciiz "Ingrese un numero: \n"
 msg: .asciiz "El valor absoluto es: \n "
