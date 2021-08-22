@@ -1,7 +1,7 @@
 # Escribir un programa que imprima las primeras n potencias de dos, siendo n un número ingresado por el usuario. Al finalizar el programa debe imprimir la suma de las potencias calculadas.
 # En vez de hacer solo potencia de base 2, tomo la base que ingrese el usuario y la potencio la cantidad de veces que desee el usuario.
 .data
-base:        .asciiz "Ingrese un número: \n"
+base:     .asciiz "Ingrese un número: \n"
 potencia: .asciiz "Ingrese las veces que desea elevarlo: \n"
 msg:      .asciiz "\nEl resultado es: \n"
 suma:     .asciiz "\nLa suma de todas las potencias es: \n"
